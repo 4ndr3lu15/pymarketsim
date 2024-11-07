@@ -1,7 +1,6 @@
 from marketsim.event.event_queue import EventQueue
 from marketsim.fourheap.fourheap import FourHeap
 from marketsim.fundamental.fundamental_abc import Fundamental
-from marketsim.fourheap import constants
 
 
 class Market:

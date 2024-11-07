@@ -4,7 +4,7 @@ from marketsim.market.market import Market
 from marketsim.fundamental.mean_reverting import GaussianMeanReverting
 from marketsim.fundamental.lazy_mean_reverting import LazyGaussianMeanReverting
 from marketsim.agent.zero_intelligence_agent import ZIAgent
-
+from typing import List
 
 
 class Simulator:
@@ -15,7 +15,7 @@ class Simulator:
                  lam: float = 0.1,
                  mean: float = 100,
                  r: float = .6,
-                 shock_var=10,
+                 shock_var = 10,
                  q_max: int = 10,
                  zi_shade: List = [10, 30]):
         self.num_agents = num_background_agents

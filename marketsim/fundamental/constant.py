@@ -1,6 +1,5 @@
 import torch
-
-from fundamental_abc import Fundamental
+from marketsim.fundamental.fundamental_abc import Fundamental
 
 
 class Constant(Fundamental):

@@ -1,4 +1,4 @@
-from ..fourheap.constants import BUY
+from marketsim.fourheap.constants import BUY
 
 
 def vwap(matched_orders):
